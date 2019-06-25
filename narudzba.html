@@ -1,0 +1,186 @@
+<html lang='bs'>
+
+<div class="topnav" align="right" >
+
+<%= link_to "Home", '/' %>
+
+
+<title></title>
+<head>
+
+
+<h1 text-align="center">Vaša narudžba</h1>
+
+<body>
+<body bgcolor="powderblue">
+<form method=post>
+<img src ="https://images-na.ssl-images-amazon.com/images/I/41-CkdvofLL.jpg"align="left" width="600" height="400"> 
+
+<table border=0>
+
+<tr bgcolor=#cccccc>
+
+<td width=150>Proizvod </td>
+
+<td width=150>Cijena </td>
+
+<td width=150> Kolicina</td>
+
+</tr>
+
+<tr>
+
+<td>Brazil kafa 1000 g</td>
+
+<td>13,00 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Brazil kafa 100 g</td>
+
+<td>3,00 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Brazil kafa 200 g</td>
+
+<td>5,00 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Brazil kafa 380 g</td>
+
+<td> 6,20 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Brazil kafa 500 g</td>
+
+<td> 7,20 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Brazil kafa u zrnu</td>
+
+<td> 15,00 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Brazil kafa sirova</td>
+
+<td> 8,50 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Cokoladice sa kafom</td>
+
+<td> 4,20 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Cokoladice sa zrnom kafe</td>
+
+<td> 2,50 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>Bombone od kafe</td>
+
+<td> 1,50 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+<td>Bombone 4 energy</td>
+
+<td> 3,70 KM </td>
+
+<td align="center"><input type="number" name="Kafakol" size="15"
+
+maxlength="15"></td>
+
+</tr>
+
+
+
+</table>
+
+</form>
+
+
+
+
+<button id="myBtn" onclick="javascript:alert('Narudzba potvrdjena!!! Unesite podatke za placanje.')">Potvrdi narudzbu</button>
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myBtn").click();
+  }
+});
+</script>
+
+ 
+
+</body>
+
+</html>
